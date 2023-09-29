@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        /* background-color: ; */
+        font-family: "Nunito", sans-serif;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 15px;
+        font-size: 18px;
+        padding: 5px 0px;
+      }
+      .navbar a {
+        text-decoration: none;
+      }
+      .logo img {
+        width: 125px;
+        padding: 0px;
+        position: absolute;
+        top: 8px;
+      }
+      .aboutme {
+        display: flex;
+        margin: 51px 10px;
+        padding: 35px;
+        /* border: 2px solid; */
+      }
+      .aboutmepara p {
+        margin: 20px 0px;
+      }
+      .aboutmepara span {
+        color: crimson;
+      }
+      .aboutsection{
+        display: flex;
+    margin: 150px 25px;
+      }
+      .imgaboutsection img{
+        width: 300px;
+      }
+      .headingpara h1{
+        margin: 0px 0px 35px 0px;
+      }
+       .myskills{
+        margin: 20px 20px;
+       }
+       .myskills h1{
+        margin: 20px 20px;
+       }
+       .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          padding: 10px;
+        }
+        .grid-item {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 20px;
+          font-size: 30px;
+          text-align: center;
+        }
+        .grid-item:hover{
+          background-color: #c5d6e4;
+        }
+        .icons{
+          display: flex;
+          justify-content: space-evenly;
+        }
+        #mycv{
+          margin: 20px 0px;
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+
+          input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+
+          input[type=submit]:hover {
+            background-color: #45a049;
+          }
+
+          .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+          .container{
+            border: #c5d6e4;
+            width: 50%;
+            margin: auto;
+          }
+          .contactme h1{
+            margin: 20px 20px;
+          }
+    </style>
+  </head>
+  <body>
+    <div class="conatinerfpage" id="homepage">
+      <div class="containerfpageheader">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="Screenshot 2023-08-29 212233.png" alt="Utkarsh" />
+          </div>
+          <div class="home"><a href="#homepage">Home</a></div>
+          <div class="about"><a href="#aboutpage">About</a></div>
+          <div class="skills"><a href="#skillpage">Skills</a></div>
+          <div class="achievement"><a href="#contactpage">Contact</a></div>
+        </nav>
+        <div class="aboutme" >
+          <div class="aboutmepara">
+            <h1>Hi all I'm <span>U</span>tkarsh</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              architecto facilis quo illum, doloremque, quia non eos amet
+              provident consectetur officia suscipit numquam modi debitis, sit
+              sequi? Minima, nihil natus!
+            </p>
+            <div class="icons">
+                <div class="giticon"><i class="fa fa-github"></i></div>
+                <div class="facebookioc"><i class="fa fa-facebook"></i></i></div>
+                <div class="facebookioc"><i class="fa fa-instagram"></i></i></div>
+                <div class="facebookioc"><i class="fa fa-twitter"></i></i></div>
+                <div class="facebookioc"><i class="fa fa-whatsapp"></i></i></div>
+            </div>
+            <input  id="mycv" type="button" value="Download CV" />
+          </div>
+          <div class="aboutphoto">
+            <img src="member.jpg" alt="MYPHOTO" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="containerspage" id="aboutpage">
+        <div class="aboutsection">
+          <div class="imgaboutsection">
+            <img src="quesimg.webp" alt="?">
+          </div>
+          <div class="headingpara">
+
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur modi veniam labore laudantium, esse deserunt laborum error sapiente ex placeat corporis. Iusto quis magni eligendi, dolorem et error? Consectetur dolores molestiae esse autem ducimus a, laborum odio saepe corrupti eum nam laboriosam eligendi deleniti consequuntur, quia, officia nesciunt accusamus vero.</p>
+          </div>
+        </div>
+    </div>
+    <div class="conatinertpage" id="skillpage">
+      <div class="myskills">
+        <h1>Skills</h1>
+        <div class="grid-container">
+          <div class="grid-item">C</div>
+          <div class="grid-item">C++</div>
+          <div class="grid-item">JAVA</div>  
+          <div class="grid-item">PYTHON</div>
+          <div class="grid-item">HTML</div>
+          <div class="grid-item">CSS</div>  
+          <div class="grid-item">JAVASCRIPT</div>
+          <div class="grid-item">SQL</div>  
+          <div class="grid-item">ML</div>  
+        </div>
+      </div>
+    </div>
+    <div class="containerfourpage" id="contactpage">
+      <div class="contactme">
+        <h1>Contact Form</h1>
+
+        <div class="container" >
+         <form action="/action_page.php">
+         <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="india">India</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
